@@ -1,0 +1,548 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width:100%;
+/* here i have used vh instead of px*/
+    height:100vh;
+    background-image: url(../imagessss.jpg);  
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(221, 5, 73);
+}
+.c1{
+    color: rgb(221, 5, 73);
+}
+nav ul li{
+   list-style-type: none;
+   display:inline-block;
+   padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(221, 5, 73);
+    transition: .6s;
+}
+.btn{
+    background-color: rgb(221, 5, 73);
+    color:white;
+    font-size: small;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:10px;
+    border-radius:30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);  
+}
+.content{
+    position: absolute;
+    top:50%;
+    right:17%;
+    transform:translateY(-50%);
+}
+h1{
+    color:white;
+    font-size:67px;
+    margin-bottom:30px;
+}
+h4{
+    color:rgba(76, 23, 76, 0.8);
+    letter-spacing:2px;
+    font-size: 10px;
+}
+
+.latter form {
+   width:300px;
+   max-width:100%;
+   position: relative;
+}
+.latter form input:first-child {
+    display: inline-block;
+    width:100%;
+    padding:14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline:none;
+    border-radius:30px;
+}
+.latter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline:none;
+    border: none;
+    padding: 10px 30px;
+    color:white;
+    background-color: #f9004d;
+    border-radius: 30px;
+    box-shadow: 0 0 5px #000,0px 0px 15px #858585;
+    top:6px;
+    right:6px;
+}
+.about{
+   width:100%;
+   padding: 100px 0px;
+   background-color: #090000;
+}
+.about img{
+    width:430px;
+    height:auto;
+}
+.about-text{
+    width:550px;
+}
+.about{
+    max-width:100%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about-text h2{
+    color:white;
+    font-size:50px;
+    margin-bottom:20px;
+    font-style: italic;
+}
+.about-text h5{
+    color:white;
+    font-size:small;
+    margin:10px;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height:15px;
+    font-size:10px;
+    margin-bottom: 45px;
+    font-style: italic;
+}
+button{
+    background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 30px;
+    transition:.4s
+}
+button:hover{
+    background-color: transparent;
+    border:2px solid #f9004d;
+    cursor:pointer;
+}
+.service{
+    background: #101010;
+    width:100%;
+    padding:150px;
+}
+.title h2{
+    color:white;
+    font-size:60px;
+    font-style: italic;
+    width:1130px;
+    margin:30px;
+    text-align: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+}
+.card{
+    height:450px;
+    width:335px;
+    padding:20px 35px;
+    background: #090000;
+    border-radius: 20px;
+    margin:15px;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin:25px;
+    color:#f9004d;
+}
+h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:#fcfc;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.card .button{
+     background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 30px;
+    transition:.4s
+}
+.card .button:hover{
+    background-color: transparent;
+    border:2px solid transparent;
+    cursor:pointer;
+}
+.contact{
+    background: #090000;
+    width:100%;
+    height:300px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .button{
+    background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 30px;
+    transition:.4s;
+}
+.contact .button:hover{
+    background-color: transparent;
+    border:2px solid transparent;
+    cursor:pointer;
+}
+footer{
+    position: relative;
+    width:100%;
+    height:400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width:500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width:45px;
+    height:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9004d;
+    margin:20px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform:scale();
+    transition: 3s;
+}
+.end{
+    position:absolute;
+    color:#f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+
+/* media query */
+@media all and (max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hero{
+        width:600px;
+        height:600px;
+        background-image: url(https://image.cnbcfm.com/api/v1/image/100496736-steve-jobs-march-2011-getty.jpg?v=1617291443);  
+        background-position: center;
+        background-size: cover;
+    }
+    .logo{
+        color:white;
+        font-size:10px;
+        letter-spacing: 1px;
+       position: absolute;
+       top:0;
+    }
+    h1{
+        color:white;
+        font-size:30px;
+        margin-bottom:30px;
+    }
+    .latter form {
+        width:100px;
+        max-width:150px;
+        position: relative;
+     }
+     .latter form input:first-child {
+         display: inline-block;
+         width:200px;
+         padding:5px;
+         border: 2px solid #f9004d;
+         outline:none;
+         border-radius:30px;
+     }
+     .latter form input:last-child {
+         position: absolute;
+         width:80px;
+         display: inline-block;
+         outline:none;
+         border: none;
+         padding:5px;
+         color:white;
+         background-color: #f9004d;
+         border-radius: 30px;
+         box-shadow: 0 0 5px #000,0px 0px 15px #858585;
+         top:2px;
+         left:130px;
+      }
+
+      .btn{
+        background-color: rgb(221, 5, 73);
+        color:white;
+        font-size:x-small;
+        text-decoration: none;
+        border:2px solid transparent;
+        padding:2px;
+        border-radius:30px;
+        position: absolute;
+        top:3%;
+        right:3%;
+}
+nav{
+    align-items: center;
+    justify-content:space-between;
+    padding:30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: smaller;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 5px 15px;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color:white;
+     font-size: x-small;
+ }
+
+ .about{
+    width:200px;
+    padding: 100px 0px;
+    background-color: #090000;
+ }
+ .about img{
+     width:100px;
+     height:auto;
+ }
+ .about-text{
+     width:550px;
+ }
+ .about{
+     max-width:100%;
+     margin:0 auto;
+     display:flex;
+     align-items: center;
+     justify-content: space-around;
+     width:100%;
+     padding: 100px 0px;
+     background-color: #191919;
+ }
+ .about-text h2{
+     color:white;
+     font-size:20px;
+     margin-bottom:20px;
+     font-style: italic;
+ }
+ .about-text h5{
+     color:white;
+     font-size:small;
+     margin:10px;
+ }
+ .about-text p{
+     color: #fcfc;
+     letter-spacing: 1px;
+     line-height:15px;
+     font-size:8px;
+     margin-bottom: 45px;
+     font-style: italic;
+     text-align: justify;
+ }
+
+ button{
+    background-color: #f9004d;
+    color:white;
+    font-size: xx-small;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: lighter;
+    padding:1px;
+    border-radius: 30px;
+    transition:.4s
+}
+
+
+
+.service{
+    background: #101010;
+    width:600px;
+    padding:20px;
+}
+.title h2{
+    color:white;
+    font-size:30px;
+    font-style: italic;
+    width:700px;
+    margin:10px;
+    text-align: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+.card{
+    height:300px;
+    width:450px;
+    padding:15px 20px;
+    background: #090000;
+    border-radius: 20px;
+    margin:15px;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size:20px;
+    display: block;
+    text-align: center;
+    margin:25px;
+    color:#f9004d;
+}
+h5{
+    color:white;
+    font-size:10px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:#fcfc;
+    font-size:x-small;
+    line-height:10px;
+    margin-bottom:25px;
+    text-align: justify;
+}
+.contact p{
+    color:white;
+    font-size:10px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .button{
+    background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: lighter;
+    padding:3px;
+    font-size: smaller;
+    border-radius: 30px;
+    transition:.4s;
+}
+footer p:nth-child(1){
+    font-size:20px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size:10px;
+    width:500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social a{
+    width:30px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9004d;
+    margin:10px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.end{
+    position:absolute;
+    color:#f9004d;
+    bottom: 35px;
+    font-size: 10px;
+}
+
+}
+
+
